@@ -65,6 +65,10 @@ header {
 	float: right;
 }
 
+.nav-social a {
+	margin-right: 0.2rem;
+}
+
 .nav-social a img {
 	display: inline-block;
 	width: 35px;
