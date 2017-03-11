@@ -273,10 +273,6 @@ h3 {
 	
 	.logo img {
 		width: 260px;
-	}
-	
-	.content {
-		margin-top: 0px;
 	}	
 	
 	.lower {
@@ -297,10 +293,6 @@ h3 {
 }
 
 @media screen and (max-width: 400px) {
-
-	.content {
-		margin-top: -80px;
-	}
 	
 	.btm-links {
 		margin-top: -30px;
@@ -343,5 +335,10 @@ h3 {
 	
 	.youtube-video.mobile {
 	display: block;
+	}
 }
+
+.pre-order {
+	text-align: center;
+	margin-top: 1rem;
 }
