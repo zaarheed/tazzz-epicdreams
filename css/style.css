@@ -1,0 +1,363 @@
+body {
+	background: #000;
+	color: #fff;
+}
+
+p {
+	font-family: 'Arvo', arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(255,255,255,0.5);
+}
+
+.contain {
+	display: table;
+/* 	float: left; */
+	margin: 2% auto;
+	margin-bottom: 0;
+/* 	padding: 5%; */
+	position: relative;
+	width: 100%;
+}
+
+header {
+	display: block;
+	min-height: 60px;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 700px;
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Arvo', arial, sans-serif;
+	margin: 0;
+	margin-bottom: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.nav span {
+	opacity: 0.5;
+	margin: 0 10px;
+}
+
+.nav-social {
+    text-align: center;
+}
+
+.nav-social a img {
+    display: inline-block;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+}
+
+.nav-social a img:hover {
+    opacity: 1;
+}
+
+.logo {
+	display: inline-block;
+	float: right;
+	margin: 0 0 0 0;
+	padding: 0;
+	position: relative;
+	text-align: right;
+}
+
+.logo img {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 350px;
+}
+
+.content {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	max-width: 700px;
+	text-align: center;
+}
+
+.content img {
+	max-width: 100%;
+}
+
+.links {
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.promo {
+	margin: 20px auto;
+}
+
+.promo h2 {
+	font-size: 24px;
+}
+
+.btm-links {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 10%;
+	padding: 0;
+	position: relative;
+}
+
+.column {
+	display: inline-block;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0 10px;
+	vertical-align: top;
+	width: 30%;
+}
+
+.two-third {
+	width: 60%;
+}
+
+.column img {
+	margin: 5px;
+}
+
+.column img:hover {
+	opacity: 0.6;
+}
+
+.lower {
+	background: url('../img/stormzy-bg.jpg') no-repeat center top #000;
+	background-size: contain;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 0;
+	width: 100%;	
+}
+
+h1 {
+	font-size: 32px;
+	font-family: 'Arvo', arial, sans-serif;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2, h3 {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Arvo', arial, sans-serif;
+	margin: 0;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+h3 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.btn {
+	background: none;
+	border: 2px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 400;
+	font-family: 'Arvo', arial, sans-serif;	
+	margin: 0 auto;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #000;
+}
+
+.tour {
+	margin-top: 30px;
+}
+
+.tour h1 {
+	margin-bottom: 30px;
+}
+
+.tour img {
+	width: 100%;
+}
+
+.euro-tour {
+	display: block;
+	float: left;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.euro-tour h2 {
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.date-wrap {
+	border-bottom: 2px solid rgba(255,255,255,0.25);
+	display: block;
+	float: left;
+	margin: 15px 0 0 0;
+	padding: 0 0 15px 0;
+	text-align: left;
+	width: 100%;
+}
+
+.date,
+.venue,
+.buy {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 60%;
+}
+
+.date { width: 20%; }
+.buy { width: 20%; }
+
+.buy .btn {
+	float: right;
+}
+
+.date h3,
+.venue h3 {
+	font-size: 1.25em;
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+	text-align: left;
+}
+
+.date h3 {
+	opacity: 0.5;
+}
+
+.venue h3 span {
+	margin-left: 5px;
+	opacity: 0.5;
+}
+
+
+@media screen and (max-width: 700px) {
+	
+	.nav, .logo {
+		display: table;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.logo {
+		margin-top: 30px;
+	}
+	
+	.logo img {
+		width: 260px;
+	}
+	
+	.content {
+		margin-top: 0px;
+	}	
+	
+	.lower {
+		max-height: 300px;	
+	}
+	
+	.column {
+		width: 100%;
+	}
+	
+	.two-third {
+		margin-bottom: 30px;
+	}
+	
+	.date { width: 30%; }
+	.venue { width: 50%; }	
+	.buy { width: 20%; }		
+}
+
+@media screen and (max-width: 400px) {
+
+	.content {
+		margin-top: -80px;
+	}
+	
+	.btm-links {
+		margin-top: -30px;
+	}
+	
+	.date,
+	.venue,
+	.buy {
+		display: table;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.buy .btn {
+		display: table;
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.date h3,
+	.venue h3 {
+		margin: 0px;
+		text-align: center;
+	}	
+}
+
+.youtube-video {
+	margin-top: 1rem;
+}
+
+.youtube-video.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.youtube-video.desktop {
+		display: none;
+	}
+	
+	.youtube-video.mobile {
+	display: block;
+}
+}
