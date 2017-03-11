@@ -70,22 +70,6 @@ header {
     opacity: 1;
 }
 
-.logo {
-	display: inline-block;
-	float: right;
-	margin: 0 0 0 0;
-	padding: 0;
-	position: relative;
-	text-align: right;
-}
-
-.logo img {
-	margin: 0 auto;
-	padding: 0;
-	text-align: center;
-	width: 350px;
-}
-
 .content {
 	clear: both;
 	display: block;
