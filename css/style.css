@@ -1,6 +1,7 @@
 body {
 	background: #000;
 	color: #fff;
+	font-family: 'Arvo', arial, sans-serif;
 }
 
 p {
@@ -54,8 +55,14 @@ header {
 	margin: 0 10px;
 }
 
+.nav-menu {
+	float:left;
+	font-size: 30px;
+}
+
 .nav-social {
     text-align: center;
+    float:right;
 }
 
 .nav-social a img {
@@ -182,81 +189,6 @@ h3 {
 	background: #fff;
 	color: #000;
 }
-
-.tour {
-	margin-top: 30px;
-}
-
-.tour h1 {
-	margin-bottom: 30px;
-}
-
-.tour img {
-	width: 100%;
-}
-
-.euro-tour {
-	display: block;
-	float: left;
-	margin: 0 auto;
-	margin-top: 50px;
-	padding: 0;
-	text-align: center;
-	width: 100%;
-}
-
-.euro-tour h2 {
-	font-size: 28px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-.date-wrap {
-	border-bottom: 2px solid rgba(255,255,255,0.25);
-	display: block;
-	float: left;
-	margin: 15px 0 0 0;
-	padding: 0 0 15px 0;
-	text-align: left;
-	width: 100%;
-}
-
-.date,
-.venue,
-.buy {
-	display: inline-block;
-	float: left;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	width: 60%;
-}
-
-.date { width: 20%; }
-.buy { width: 20%; }
-
-.buy .btn {
-	float: right;
-}
-
-.date h3,
-.venue h3 {
-	font-size: 1.25em;
-	margin: 10px 0px 0px 0px;
-	padding: 0;
-	text-align: left;
-}
-
-.date h3 {
-	opacity: 0.5;
-}
-
-.venue h3 span {
-	margin-left: 5px;
-	opacity: 0.5;
-}
-
 
 @media screen and (max-width: 700px) {
 	
