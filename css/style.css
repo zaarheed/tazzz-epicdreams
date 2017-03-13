@@ -251,6 +251,15 @@ h3 {
 		margin: 0px;
 		text-align: center;
 	}
+	
+	.nav-menu {
+		text-align: center;
+		float: none;
+	}
+	
+	.nav-social {
+		float: none;
+	}
 }
 
 .youtube-video {
