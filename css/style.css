@@ -281,7 +281,8 @@ h3 {
 
 .pre-order {
 	text-align: center;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 2rem;
 }
 
 .embed-container {
@@ -303,6 +304,7 @@ h3 {
 }
 
 .credits p {
+	margin-top: 25px;
 	text-transform: uppercase;
 	font-size: 0.7rem;
 }
